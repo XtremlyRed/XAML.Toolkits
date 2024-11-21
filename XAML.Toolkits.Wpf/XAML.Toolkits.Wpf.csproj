@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+
+		<TargetFrameworks>net462;netcoreapp3.1;net6.0-windows;net8.0-windows</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<ProjectReference Include="..\XAML.Toolkits.Core\XAML.Toolkits.Core.csproj" />
+	</ItemGroup>
+
+
+	 
+
+
+	<Import Project="$(SolutionDir)\GlobalCompileSettings.Targets" />
+
+
+
+</Project>
